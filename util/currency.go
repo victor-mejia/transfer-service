@@ -1,4 +1,4 @@
-package main
+package util
 
 type Currency string
 
@@ -7,13 +7,3 @@ const (
 	COP Currency = "COP"
 	GBP Currency = "GBP"
 )
-
-
-type cop struct {}
-var cop = cop{}
-func COP() *Currency {
-	return cop
-}
-
-
-
